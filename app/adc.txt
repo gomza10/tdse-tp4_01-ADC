@@ -1,0 +1,9 @@
+ANALISIS CODIGO ADC
+Test #1
+Hace la lectura directa de los 100 datos mediante poling utilizando la función ADC_Poll_Read y los imprime por pantalla, tendrá mayor sensibilidad al ruido y mayor dispersión.
+
+Test #2 
+Hace un promedio de 16 lecturas para cada muestra y luego la imprime en la consola utilizando las mismas funciones y métodos que test #1. Reduce el ruido la promediar los datos pero es mas lento.
+
+Test #3
+Realiza la conversion ADC mediante interrupciones mediante la función HAL_ADC_Start_IT, guarda todos los 100 valores en una array utilizando HAL_ADC_GetValue y los imprime por consola.
