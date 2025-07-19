@@ -1,0 +1,5 @@
+Resultados:
+
+-Desviación Estándar: 41.18
+-Media: 4041
+-Ticks: 31

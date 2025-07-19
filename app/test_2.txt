@@ -1,0 +1,12 @@
+Resultados:
+
+-Desviación Estándar: 10.02
+-Media: 4031
+-Ticks: 118
+
+Análisis:
+- Mucho menor dispersión, debido a que la desviación estándar baja de 41.18 a 10.02, se puede decir que las mediciones son mucho más estables y menos sensibles al ruido.
+
+- Mejor precisión, debido a que la media cambia de 4041 (test_1) a 4031, podemos decir que el promedio ayuda a eliminar el ruido que se puede generar en la conversion, que en el Test #1 hacía que las lecturas parezcan artificialmente altas.
+
+- Este test es mucho mas lento que test_1 debido a que para cada muestra realiza 16 conversiones y las promedia, la adquisición es más lenta que el Test #1. El tick resultante es de 118 a comparación del Test_1 el cual fue de 31

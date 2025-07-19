@@ -1,0 +1,13 @@
+Resultados:
+
+-Desviación Estándar: 35.88
+-Media: 4027
+-Ticks: 31
+
+Análisis:
+-Menor dispersión que Test_1, la desviación estándar baja de 41.18 a 35.88, esto indica que el método con interrupciones reduce algo de ruido.
+-Todavía presenta bastante ruido, debido a que La desviación no baja tanto como en el Test_2.
+-La media también es algo menor que en el Test_1 (4027 vs 4041), pero no tanto como en el Test_2.
+-El tiempo es muy parecido al test_1 y mucho menor las test_2
+
+A pesar que los resultados fueron parecidos al test_1 este tes realiza un mejor uso de la CPU, debido a que mientras el ADC realiza conversiones, la CPU está libre para hacer otras tareas, a diferencia del Test #1 que bloquea la CPU con polling.
